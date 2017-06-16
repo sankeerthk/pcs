@@ -1,13 +1,13 @@
-package com.pioneer.timeSheets;
+package com.pcs.tracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyApplication {
+public class PioneerPortalApplication {
 	
 	public static void main(String[] args){
-		SpringApplication.run(MyApplication.class, args);
+		SpringApplication.run(PioneerPortalApplication.class, args);
 	}
 
 }
