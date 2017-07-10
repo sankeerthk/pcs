@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 	
-	@RequestMapping("/test")
+	@RequestMapping("/user/home")
 	public String test(){
-		return "test controller pass";
+		return "home";
 	}
 
 }

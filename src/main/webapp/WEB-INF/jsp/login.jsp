@@ -11,7 +11,7 @@
 					<img src="/static/images/pioneer-logo.png" alt="Pioneer Consulting Services LLC">
 				</div>
 					<div class="col-md-12 heading">
-						<h2>Pioneer Consulting Services LLC Time Sheets Management</h2>
+						<h2>Pioneer Consulting Services LLC</h2>
 						<hr>
 					</div>
 				</div>
@@ -23,6 +23,11 @@
 				<c:if test="${reset != null}">
 					<div class="alert alert-info col-md-12 mt10">
 						<c:out value="${reset}" />
+					</div>
+				</c:if>
+				<c:if test="${error != null}">
+					<div class="alert alert-info col-md-12 mt10">
+						<c:out value="${error}" />
 					</div>
 				</c:if>
 				<c:if test="${accessDenied != null}">

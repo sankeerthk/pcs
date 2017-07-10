@@ -11,9 +11,9 @@
 				<h4>Home</h4>
 					<div class="col-md-6">
 						<div class="col-md-3">
-							<h2>welcome ${user}</h2>
+							<h2>welcome home</h2>
 						</div>
-						<div class="col-md-3"><h2>Employee ID: ${hello}</h2></div>
+						<div class="col-md-3"><h2>Employee ID:</h2></div>
 					</div>
 				</div>
 				<div class="row">
